@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding-top: 800px;
+  text-align: center;
+}
+.profile{
+border-radius: 50%;
+}
+#welcome{
+  position: absolute;
+  bottom: 0 ;
+  background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+h1{
+  font-size: 40%;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-family: 'Caveat', cursive;
+}
+#name{ font-size: 50px;
+  font-family: cursive;
+  font-family: 'Caveat', cursive; 
+ }
+.line{ height: 6px;
+ background-color: #000;
+ width: 70px;
+ margin: 8px auto; 
+ }
+.parallax-inner{ display: table-cell;
+ vertical-align: middle;
+ }
+.menu{
+  position: fixed;
+  background: white;
+  width: 100%;
+  margin-top: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.links{
+ padding-left: 33px;
+ padding-right: 25px;
+ font-family: fantasy;
+ font-size: 20px;
+ display: inline;
+}
+.links:hover{
+ font-size: 25px;
+ text-decoration: underline;
+ background: rgb(216, 102, 9);
+}
+#escritas a{
+text-decoration: underline !important;
+color: rgb(21, 202, 142) !important;
+}
+
